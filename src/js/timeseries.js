@@ -283,7 +283,7 @@ function drawChart(options, series) {
 			text: `${options.lens ? `${options.lens.name}: ` : '' }` + `Timeseries of ${options.name}`
 		},
 		subtitle: {
-			text: 'Source: <a href="http://httparchive.org">httparchive.org</a>',
+			text: 'Source: <a href="https://httparchive.org">httparchive.org</a>',
 			useHTML: true
 		},
 		legend: {
