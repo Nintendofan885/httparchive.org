@@ -284,7 +284,7 @@ function drawChart(series, containerId, options) {
 			text: `${options.lens ? `${options.lens.name}: ` : '' }` + `Histogram of ${options.name}`
 		},
 		subtitle: {
-			text: `Source: <a href="http://httparchive.org">httparchive.org</a> (${prettyDate(options.date)})`,
+			text: `Source: <a href="https://httparchive.org">httparchive.org</a> (${prettyDate(options.date)})`,
 			useHTML: true
 		},
 		plotOptions: {
